@@ -36,7 +36,7 @@ Constraints:
 
 using namespace std;
 
-class Solution
+class Solution16
 {
 public:
     int threeSumClosest(vector<int> &nums, int target)
