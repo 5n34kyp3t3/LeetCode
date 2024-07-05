@@ -28,6 +28,10 @@ Constraints:
 #include <iostream>
 #include <iostream>
 
+#ifndef Solution21
+#define Solution21
+
+
 using namespace std;
 
 struct ListNode
@@ -45,7 +49,7 @@ struct ListNode
     ListNode(int x, ListNode *next) : val(x), next(next) {} //
 };
 
-class Solution
+class Solution21
 {
 public:
     ListNode *mergeTwoLists(ListNode *list1, ListNode *list2)
@@ -110,7 +114,4 @@ public:
     }
 };
 
-int main()
-{
-    printf("print sample for main.");
-}
+#endif

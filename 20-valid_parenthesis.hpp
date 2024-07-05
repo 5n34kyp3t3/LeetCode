@@ -19,10 +19,12 @@ s consists of parentheses only '()[]{}'.
 #include <vector>
 #include <stack>
 #include <string>
+#ifndef Solution20_H
+#define Solution20_H
 
 using namespace std;
 
-class Solution
+class Solution20
 {
 public:
 	bool isValid(string s)
@@ -55,3 +57,5 @@ public:
 		return stk.empty();
 	}
 };
+
+#endif

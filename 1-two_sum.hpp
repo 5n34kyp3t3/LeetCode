@@ -1,6 +1,8 @@
 #include <iostream>
 #include <vector>
 #include <unordered_map>
+#ifndef Solution1_H
+#define Solution1_H
 
 /*
 Key Concepts:
@@ -15,7 +17,7 @@ Key Concepts:
 
 using namespace std;
 
-class Solution
+class Solution1
 {
 public:
     vector<int> twoSum(vector<int> &nums, int target)
@@ -33,3 +35,5 @@ public:
         return {};
     }
 };
+
+#endif

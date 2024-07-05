@@ -30,7 +30,8 @@ Constraints:
 
 #include <stdio.h>
 #include <vector>
-#define Solution
+#ifndef Solution16_H
+#define Solution16_H
 
 using namespace std;
 
@@ -43,4 +44,6 @@ public:
 
 
     }
-}
+};
+
+#endif
