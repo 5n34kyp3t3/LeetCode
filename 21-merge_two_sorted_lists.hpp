@@ -28,8 +28,8 @@ Constraints:
 #include <iostream>
 #include <iostream>
 
-#ifndef Solution21
-#define Solution21
+#ifndef Solution21_H
+#define Solution21_H
 
 
 using namespace std;

@@ -2,8 +2,8 @@
 #include <vector>
 #include <queue>
 
-#ifndef Solution 103
-#define Solution 103
+#ifndef Solution103_H
+#define Solution103_H
 
 using namespace std;
 
@@ -29,7 +29,7 @@ struct TreeNode
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
 
-class Solution
+class Solution103
 {
 public:
     vector<vector<int>> zigzagLevelOrder(TreeNode *root)
